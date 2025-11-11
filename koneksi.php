@@ -2,7 +2,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "akademik";
+$dbname = "wisuda_online_demo";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
