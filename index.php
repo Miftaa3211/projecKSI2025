@@ -10,7 +10,11 @@
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-success">
   <div class="container">
-    <a class="navbar-brand fw-bold" href="#">Wisuda Polinela</a>
+<a class="navbar fw-bold" href="#">
+    Wisuda Polinela
+    <span style="background:red; color:white; padding:2px 6px; border-radius:10px; font-size:10px;">New</span>
+</a>
+
     <button class="btn btn-outline-light" onclick="window.location='login.php'">Login</button>
   </div>
 </nav>
@@ -47,11 +51,9 @@
     </div>
   </div>
 </section>
-
 <footer class="bg-success text-white text-center py-3 mt-5">
   © 2025 Politeknik Negeri Lampung
 </footer>
-
 <script src="assets/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
