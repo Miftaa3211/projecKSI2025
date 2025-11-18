@@ -75,6 +75,13 @@
   </div>
 </section>
 
+<<<<<<< HEAD
+=======
+<!-- SKEMA 2: arya menambah baris baru -->
+<p class="text-center text-muted">Status Sistem: Online</p>
+
+
+>>>>>>> arya
 <footer class="bg-success text-white text-center py-4 mt-auto">
   <div class="container">
       <p class="mb-0">
