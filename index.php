@@ -48,6 +48,9 @@
   </div>
 </section>
 
+<!-- SKEMA 2: arya menambah baris baru -->
+<p class="text-center text-muted">Status Sistem: Online</p>
+
 <footer class="bg-success text-white text-center py-3 mt-5">
   © 2025 Politeknik Negeri Lampung
 </footer>
