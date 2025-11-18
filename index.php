@@ -10,9 +10,8 @@
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-success">
   <div class="container">
-    <a class="navbar-brand fw-bold" href="#">Wisuda Polinela</a>
-    <button class="btn btn-outline-light" onclick="window.location='login.php'">Login</button>
-  </div>
+  <a class="navbar-brand" href="#"><img src="assets/img/logo.png" alt="Logo Polinela" width="30" height="30"></a>
+</div>
 </nav>
 
 <section class="text-center py-5">
