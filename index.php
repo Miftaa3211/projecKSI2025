@@ -10,7 +10,7 @@
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-success">
   <div class="container">
-    <a class="navbar- fw-bold" href="#">Wisuda Polinela</a>
+    <a class="navbar" href="#">Wisuda Polinela</a>
     <button class="btn btn-outline-light" onclick="window.location='login.php'">Login</button>
   </div>
 </nav>
