@@ -42,6 +42,7 @@
             <h5>Statistik Wisuda</h5>
             <p>Tahun lalu: 512 mahasiswa lulus dari 8 jurusan.</p>
           </div>
+          
         </div>
       </div>
       <div class="col-md-4">
