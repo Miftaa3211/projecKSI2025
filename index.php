@@ -75,10 +75,13 @@
   </div>
 </section>
 
-<footer class="bg-success text-white text-center py-3 mt-5">
-    <div class="container">
-        <small>&copy; 2025 Politeknik Negeri Lampung. All Rights Reserved.</small>
-    </div>
+<footer class="bg-success text-white text-center py-4 mt-auto">
+  <div class="container">
+      <p class="mb-0">
+          &copy; <span id="year"></span> <strong>Politeknik Negeri Lampung</strong>. All Rights Reserved.
+      </p>
+      <small>Dikembangkan oleh UPT Puskom</small>
+  </div>
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
