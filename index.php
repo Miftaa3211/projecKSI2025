@@ -19,6 +19,10 @@
   </div>
 </nav>
 
+<div class="alert alert-info text-center mt-3">
+    Selamat datang di Website Wisuda Politeknik Negeri Lampung!
+</div>
+
 <section class="text-center py-5">
   <h1 class="fw-bold">Sistem Pendaftaran Wisuda Online</h1>
   <p class="text-muted">Politeknik Negeri Lampung</p>
