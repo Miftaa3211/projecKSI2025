@@ -75,8 +75,6 @@
   </div>
 </section>
 
-<<<<<<< HEAD
-=======
 <!-- SKEMA 2: arya menambah baris baru -->
 <p class="text-center text-muted">Status Sistem: Online</p>
 
