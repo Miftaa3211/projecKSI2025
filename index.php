@@ -26,6 +26,10 @@
 
 </nav>
 
+<div class="alert alert-info text-center mt-3">
+    Selamat datang di Website Wisuda Politeknik Negeri Lampung!
+</div>
+
 <section class="text-center py-5">
   <h1 class="fw-bold">Sistem Pendaftaran Wisuda Online</h1>
   <p class="text-muted">Politeknik Negeri Lampung</p>
@@ -45,14 +49,23 @@
             <h5>Statistik Wisuda</h5>
             <p>Tahun lalu: 512 mahasiswa lulus dari 8 jurusan.</p>
           </div>
+          
         </div>
       </div>
       <div class="col-md-4">
         <div class="card shadow-sm">
+        <div class="col-md-4">
+        <div class="card shadow-sm">
           <div class="card-body">
+            <h5>Lokasi Wisuda</h5>
+            <p>Aula Politeknik Negeri Lampung</p>
+          </div>
+        </div>
+                  <div class="card-body">
             <h5>Informasi Terbaru</h5>
             <p>Jadwal wisuda berikutnya: 20 Desember 2025.</p>
           </div>
+        </div>
         </div>
       </div>
     </div>
