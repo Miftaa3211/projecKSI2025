@@ -47,10 +47,18 @@
       </div>
       <div class="col-md-4">
         <div class="card shadow-sm">
+        <div class="col-md-4">
+        <div class="card shadow-sm">
           <div class="card-body">
+            <h5>Lokasi Wisuda</h5>
+            <p>Aula Politeknik Negeri Lampung</p>
+          </div>
+        </div>
+                  <div class="card-body">
             <h5>Informasi Terbaru</h5>
             <p>Jadwal wisuda berikutnya: 20 Desember 2025.</p>
           </div>
+        </div>
         </div>
       </div>
     </div>
