@@ -10,7 +10,7 @@
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-success">
   <div class="container">
-    <a class="navbar-brand fw-bold" href="#">Wisuda Politeknik Negeri Lampung</a>
+  <a class="navbar-brand fw-bold" href="#">Wisuda Politeknik Negeri Lampung</a>
     <button class="btn btn-outline-light" onclick="window.location='login.php'">Login</button>
   </div>
 </nav>
