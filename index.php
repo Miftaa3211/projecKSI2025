@@ -14,6 +14,7 @@
     Wisuda Polinela
     <span style="background:red; color:white; padding:2px 6px; border-radius:10px; font-size:10px;">New</span>
 </a>
+
     <button class="btn btn-outline-light" onclick="window.location='login.php'">Login</button>
   </div>
 </nav>
