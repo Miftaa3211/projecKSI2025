@@ -1,9 +1,9 @@
 <?php
 $anggota = [
-    ["nama" => "Miftakhur Rizky", "npm" => "23753064", "tugas" => "Implementasi CRUD"],
-    ["nama" => "Arya Rohmatuloh", "npm" => "23753047", "tugas" => "Back-End & Routing"],
-    ["nama" => "Febri Kurniawan", "npm" => "23753057", "tugas" => "Front-End UI/UX"],
-    ["nama" => "Dwi Meilia Rosa", "npm" => "23753055", "tugas" => "Database & Dokumentasi"],
+    ["nama" => "Miftakhur Rizky", "npm" => "23753064"],
+    ["nama" => "Arya Rohmatuloh", "npm" => "23753047"],
+    ["nama" => "Febri Kurniawan", "npm" => "23753057"],
+    ["nama" => "Dwi Meilia Rosa", "npm" => "23753055"],
 ];
 ?>
 <!DOCTYPE html>
@@ -67,7 +67,6 @@ $anggota = [
             <tr>
                 <th>Nama</th>
                 <th>NPM</th>
-                <th>Tugas</th>
             </tr>
         </thead>
         <tbody>
@@ -75,19 +74,11 @@ $anggota = [
             <tr>
                 <td><?= $a["nama"]; ?></td>
                 <td><?= $a["npm"]; ?></td>
-                <td><?= $a["tugas"]; ?></td>
             </tr>
             <?php endforeach; ?>
         </tbody>
     </table>
 </div>
-
-<footer class="bg-success text-white text-center py-4 mt-auto">
-    <div class="container">
-        <p class="mb-0">&copy; <span id="year"></span> Politeknik Negeri Lampung</p>
-        <small>Dikembangkan oleh UPT Puskom</small>
-    </div>
-</footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 <script>
