@@ -1,72 +1,96 @@
+<?php
+$anggota = [
+    ["nama" => "Miftakhur Rizky", "npm" => "23753064"],
+    ["nama" => "Arya Rohmatuloh", "npm" => "23753047"],
+    ["nama" => "Febri Kurniawan", "npm" => "23753057"],
+    ["nama" => "Dwi Meilia rosa", "npm" => "23753055"],
+];
+?>
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Wisuda Politeknik Negeri Lampung</title>
-  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daftar Anggota & Tugas KSI</title>
+
+    <style>
+        body {
+            font-family: "Poppins", sans-serif;
+            margin: 0;
+            background: linear-gradient(135deg, #4f46e5, #9333ea);
+            color: white;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 50px auto;
+            background: #ffffff20;
+            backdrop-filter: blur(10px);
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 10px 20px #00000040;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 32px;
+            font-weight: 700;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 25px;
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #ffffff40;
+        }
+
+        th {
+            background: #ffffff30;
+            font-weight: 600;
+        }
+
+        tr:hover {
+            background: #ffffff25;
+            transition: 0.3s;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 14px;
+            opacity: 0.7;
+        }
+    </style>
 </head>
-<body class="bg-light">
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-success">
-  <div class="container">
-<a class="navbar fw-bold" href="#">
-    Wisuda Polinela
-    <span style="background:red; color:white; padding:2px 6px; border-radius:10px; font-size:10px;">New</span>
-</a>
+<body>
+    <div class="container">
+        <h1>📘 Daftar Anggota Kelompok & Tugas KSI</h1>
 
-    <button class="btn btn-outline-light" onclick="window.location='login.php'">Login</button>
-  </div>
-</nav>
+        <table>
+            <tr>
+                <th>Nama</th>
+                <th>NPM</th>
+                <th>Tugas</th>
+            </tr>
 
-<div class="alert alert-info text-center mt-3">
-    Selamat datang di Website Wisuda Politeknik Negeri Lampung!
-</div>
+            <?php foreach ($anggota as $a): ?>
+            <tr>
+                <td><?= $a["nama"]; ?></td>
+                <td><?= $a["npm"]; ?></td>
+            </tr>
+            <?php endforeach; ?>
+        </table>
 
-<section class="text-center py-5">
-  <h1 class="fw-bold">Sistem Pendaftaran Wisuda Online</h1>
-  <p class="text-muted">Politeknik Negeri Lampung</p>
-  <div class="container mt-4">
-    <div class="row">
-      <div class="col-md-4">
-        <div class="card shadow-sm">
-          <div class="card-body">
-            <h5>Persyaratan</h5>
-            <p>Pastikan semua berkas sudah lengkap sesuai ketentuan akademik.</p>
-          </div>
+        <div class="footer">
+            © <?= date("Y"); ?> | Kelompok KSI | Desain Web Sederhana
         </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card shadow-sm">
-          <div class="card-body">
-            <h5>Statistik Wisuda</h5>
-            <p>Tahun lalu: 512 mahasiswa lulus dari 8 jurusan.</p>
-          </div>
-          
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card shadow-sm">
-        <div class="col-md-4">
-        <div class="card shadow-sm">
-          <div class="card-body">
-            <h5>Lokasi Wisuda</h5>
-            <p>Aula Politeknik Negeri Lampung</p>
-          </div>
-        </div>
-                  <div class="card-body">
-            <h5>Informasi Terbaru</h5>
-            <p>Jadwal wisuda berikutnya: 20 Desember 2025.</p>
-          </div>
-        </div>
-        </div>
-      </div>
     </div>
-  </div>
-</section>
-<footer class="bg-success text-white text-center py-3 mt-5">
-  © 2025 Politeknik Negeri Lampung
-</footer>
-<script src="assets/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
