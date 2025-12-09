@@ -45,11 +45,6 @@ $anggota = [
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <div class="ms-auto">
-                <button class="btn btn-outline-light btn-sm" onclick="window.location='login.php'">Login</button>
-            </div>
-        </div>
     </div>
 </nav>
 
